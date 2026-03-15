@@ -1,0 +1,22 @@
+# Ignorar o ambiente virtual
+venv/
+__pycache__/
+
+# Ignorar a sessão do TikTok (MUITO IMPORTANTE)
+estado_tiktok.json
+temp_tiktok_chrome/
+temp_tiktok_edge/
+
+# Ignorar logs de erro
+bot_erros.txt
+
+# Ignorar chaves e senhas
+.env
+
+# Ignorar scripts de execução local (contém caminhos do PC)
+*.bat
+
+# Arquivos de sistema e IDE
+.vscode/
+.DS_Store
+Thumbs.db
