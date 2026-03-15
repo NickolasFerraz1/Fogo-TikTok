@@ -25,10 +25,10 @@ Automatizar a interação diária com contatos específicos, eliminando a tarefa
 
 ## 📂 Estrutura do Repositório
 
-- `app.py`: O coração da automação e lógica de disparos.
-- `.env.example`: Modelo para configuração das chaves de API (o arquivo `.env` original é ignorado por segurança).
-- `.gitignore`: Filtro de segurança para arquivos sensíveis e ambiente virtual.
-- `rodar_bot.bat`: Script de automação para inicialização do ambiente e execução do script Python.
+- `app.py`: Core da automação, responsável pelo processamento da lista de contatos e disparos via Playwright.
+- `script-login.py`: Script auxiliar de autenticação utilizado para gerar o `storage_state.json`, permitindo o bypass de login manual através da persistência de tokens de sessão.
+- `.env.example`: Modelo para configuração das chaves de API do Telegram (segurança de credenciais).
+- `requirements.txt`: Arquivo de dependências para rápida replicação do ambiente de desenvolvimento.
 
 ## 🔧 Como Replicar
 
