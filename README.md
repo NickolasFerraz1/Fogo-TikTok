@@ -34,8 +34,8 @@ Automatizar a interação diária com contatos específicos, eliminando a tarefa
 
 1. **Clone o repositório:**
    ```bash
-    git clone [https://github.com/NickolasFerraz1/Fogo-TikTok.git](https://github.com/NickolasFerraz1/Fogo-TikTok.git)
-   ```
+git clone [https://github.com/NickolasFerraz1/Fogo-TikTok.git](https://github.com/NickolasFerraz1/Fogo-TikTok.git)  
+
 2. **Configure o Ambiente:**
     ```bash
     python -m venv venv
